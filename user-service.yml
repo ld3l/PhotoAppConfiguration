@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${MY_DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${MY_DB_USERNAME:postgres}
+    password: ${MY_DB_PASSWORD:1}
+token:
+  expiration-time: 864000000
+  secret: orguihj9238fr4tiufg429ui8hf2
